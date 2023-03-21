@@ -5,6 +5,103 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>HTML - Form</title>
+        <style>
+            td,
+            th {
+                border: 1px solid black;
+                padding: 10px 30px;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <div>
+            <h1>Exercice sur les formulaires</h1>
+
+            <form action="">
+                <table>
+                    <caption>
+                        mon super formulaire
+                    </caption>
+                    <tr>
+                        <td>
+                            <label for="name">pseudo</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" placeholder="je suis un message" autofocus required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pswd">password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="pswd" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="vehicle">véhicule</label>
+                        </td>
+                        <td>
+                            <select id="vehicle">
+                                <option value="car">voiture</option>
+                                <option value="bike">vélo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Quel est votre sexe?</td>
+                        <td>
+                            <input
+                                type="radio"
+                                id="men"
+                                value="homme"
+                                name="sex"
+                            />
+                            <label for="men">homme</label>
+                            <input
+                                type="radio"
+                                id="women"
+                                value="femme"
+                                name="sex"
+                                required
+                            />
+                            <label for="women">femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>sport pratiqués?</td>
+                        <td>
+                            <input type="checkbox" id="foot" value="foot" />
+                            <label for="foot">foot</label>
+                            <input type="checkbox" id="tennis" value="tennis" />
+                            <label for="tennis">tennis</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="download">télécharger</label>
+                        </td>
+                        <td>
+                            <input type="file" id="download">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Envoyer" />
+                            <input type="reset" value="Réinitialiser"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
 </html>
