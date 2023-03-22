@@ -12,8 +12,36 @@ body {
     /* Epaisseur de la police */
     font-weight: normal;
     /* normal | bold */
-
 }
+
 h1 {
     font-weight: normal;
+    font-size: 25px;
+
+    /* Majuscule, minuscule */
+    text-transform: uppercase;
+    /* uppercase | lowercase | capitalize */
+
+    /* alignement du texte */
+    text-align: center;
+    /* center | left | right | justify */
+}
+
+ul li {
+    text-align: justify;
+    list-style: none;
+}
+
+.link {
+    /* Style sur le texte (souligné, barré..) */
+    text-decoration: none;
+    /* underline */
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: green;
 }
