@@ -16,6 +16,41 @@ a {
     color: #333;
 }
 
+/* COMPONENTS */
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+}
+
+.btn:hover {
+    color: #333;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: pink;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/business-1920x1280.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 90%;
+    min-height: 350px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 50px;
+}
+
 /* ABOUT-US */
 .about-us {
     width: 90%;
@@ -25,7 +60,7 @@ a {
     text-align: center;
 }
 
-.about-us h1 {
+.about-us h2 {
     text-transform: uppercase;
     margin-bottom: 30px;
 }

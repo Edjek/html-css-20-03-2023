@@ -5,17 +5,63 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #333;
 }
 
-.container {
-    background-color: pink;
-    width: 90%;
-    min-height: 200px;
+/* SECTION HERO */
+.hero {
+    min-height: 350px;
+    width: 80%;
     margin: 50px auto;
-    background-image: url(../img/paysage-1920x1280.jpg);
-    /* background-repeat: no-repeat; */
+    text-align: center;
+    color: #fff;
+    padding: 80px 20px;
+
+    /* BACKGROUND-IMAGE */
+    /* linear-gradient permet de mettre un overlay (un voile au-dessus) pour que le texte soit lisible */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+        url(../img/businessx1920.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
+    /* Par defaut les images se repètent (si j'utilise : background-size: cover; je n'ai pas besoin de mettre no-repeat*/
+    /* background-repeat: no-repeat; */
+}
+
+.hero h1 {
+    margin-bottom: 50px;
+}
+
+.hero h1 span {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.hero-link {
+    padding: 10px 30px;
+    background-color: rgb(207, 59, 59);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-link:hover {
+    background-color: rgb(231, 40, 40);
+}
+
+/* IMAGE RESPONSIVE */
+.image-responsive {
+    width: 50%;
+    height: 300px;
+    background-color: pink;
+    margin: 50px auto;
+}
+
+.image-responsive img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    /* Par defaut object-position est sur center */
 }
