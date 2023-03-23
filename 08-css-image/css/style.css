@@ -10,6 +10,11 @@ body {
     color: #333;
 }
 
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
 /* SECTION HERO */
 .hero {
     min-height: 350px;
@@ -62,6 +67,6 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
     /* Par defaut object-position est sur center */
+    object-position: top;
 }

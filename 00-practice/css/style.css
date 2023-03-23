@@ -21,7 +21,7 @@ a {
     padding: 10px 30px;
     border-radius: 5px;
     color: #fff;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(166, 11, 11);
 }
 
 .btn:hover {
@@ -32,13 +32,13 @@ a {
     text-transform: uppercase;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
     background-color: pink;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url(../img/business-1920x1280.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     width: 90%;
     min-height: 350px;
     margin: 50px auto;
