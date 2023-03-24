@@ -34,6 +34,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 /* COMPONENTS */
 .link {
     background-color: #0a2b19;
@@ -72,7 +73,7 @@ nav {
 /* HERO */
 .hero {
     background-color: pink;
-    min-height: 1500px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
